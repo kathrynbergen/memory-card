@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="utf-8">
+    <title>Memory Card</title>
+    <link rel="stylesheet" href="index.css">
+    <script src = "index.js"></script>
+  </head>
+  <body id = "home-page">
+	  <br>
+	  <h1>Memory Card</h1>
+	  <img id = "title-image"src = "playing cards.png"> <!--Playing card image from: https://www.pngall.com/wp-content/uploads/4/Playing-Card-PNG-High-Quality-Image.png--> 
+	  <br>
+	  <h3>Category Select:</h3>
+	  <select id="category-list"> 
+		  <option value="cards/">Playing Cards</option> <!--"Playing cards" category images from: https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/vector-playing-cards/PNG-cards-1.3.zip-->
+		  <option value="heroes/">Heroes</option> <!--"Heroes" category images from: https://marvel.fandom.com/wiki/Marvel_Universe_Cards-->
+												  <!--Card back image from: https://cardthartic.com/product/youre-my-hero/-->
+		  <option value="pokemon/">Pokémon</option> <!--"Pokemon" category images from: https://tcg.pokemon.com/en-us/galleries/tcg-go/-->
+	  </select>
+	  <br>
+	  <h3>Difficulty Select:</h3>
+	  <select id="difficulty-list"> 
+		  <option value=3>Easy</option>
+		  <option value=5>Normal</option>
+		  <option value=7>Hard</option>
+	  </select>
+	  <br><br>
+	  <button onclick = "playGame()">Play Game</button>
+	  <h2>How To Play:</h2>
+	  <p>Match up pairs of cards to gain points!<br>
+	  Click on 2 cards to make your guess.<br>
+	  If they match, you gain 100 points!<br>
+	  If they do not match, you lose 10 points. <br>
+	  Try to remember locations of cards to correctly match them on your next guess!<br>
+	  Good luck!</p>
+  </body>
+</html> 

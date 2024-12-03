@@ -1,0 +1,40 @@
+h1{
+	display:inline-block;
+	font-size: 60px;
+}
+h2{
+	margin: 35px 0px 0px 0px;
+}
+h3{
+	margin: 20px 5px 20px 5px;
+	display: inline-block;
+	font-size: 25px;
+}
+p{
+	line-height: 25px;
+}
+button{
+	background-color: #B0FFDA;
+	font-size: 25px;
+	font-family: Courier;
+	font-weight: bold;
+	border-radius: 5px;
+}
+select{
+	background-color: #CAFFE6;
+	font-size: 22px;
+	font-family: Courier;
+	border-radius: 5px;
+}
+#home-page{
+	background-color: #B0EBFF;
+	font-family:Courier;
+	text-align: center;
+	margin: 25px;
+}
+#title-image{
+	width: 125px;
+	
+}
+
+

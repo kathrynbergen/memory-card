@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="utf-8">
+    <title>Game</title>
+    <link rel="stylesheet" href="game.css">
+    <script src = "game.js"></script>
+  </head>
+  <body id = "home-page" onload = "scrambleImages()">
+	  <h1 id = "title">Find the matching pairs!</h1>
+	  <p id = "high-score">High Score: 0</p>
+	  <p id = "points">Points: 0</p>
+	  <button id = "reveal" onclick = "revealAllImages()">Hint (Reveal All Cards)</button>
+	  <p id = "status"></p>
+	  <div>
+		<input onclick = "cardClicked(this.id)" type = "image" id = "image0" src = "" class="card">
+		<input onclick = "cardClicked(this.id)" type = "image" id = "image1" src = "" class="card">
+		<input onclick = "cardClicked(this.id)" type = "image" id = "image2" src = "" class="card">
+		<input onclick = "cardClicked(this.id)" type = "image" id = "image3" src = "" class="card">
+		<input onclick = "cardClicked(this.id)" type = "image" id = "image4" src = "" class="card">
+		<input onclick = "cardClicked(this.id)" type = "image" id = "image5" src = "" class="card">
+		<input onclick = "cardClicked(this.id)" type = "image" id = "image6" src = "" class="card">
+		<br>
+		<input onclick = "cardClicked(this.id)" type = "image" id = "image7" src = "" class="card">
+		<input onclick = "cardClicked(this.id)" type = "image" id = "image8" src = "" class="card">
+		<input onclick = "cardClicked(this.id)" type = "image" id = "image9" src = "" class="card">
+		<input onclick = "cardClicked(this.id)" type = "image" id = "image10" src = "" class="card">
+		<input onclick = "cardClicked(this.id)" type = "image" id = "image11" src = "" class="card">
+		<input onclick = "cardClicked(this.id)" type = "image" id = "image12" src = "" class="card">
+		<input onclick = "cardClicked(this.id)" type = "image" id = "image13" src = "" class="card">
+		<br>
+		<input onclick = "cardClicked(this.id)" type = "image" id = "image14" src = "" class="card">
+		<input onclick = "cardClicked(this.id)" type = "image" id = "image15" src = "" class="card">
+		<input onclick = "cardClicked(this.id)" type = "image" id = "image16" src = "" class="card">
+		<input onclick = "cardClicked(this.id)" type = "image" id = "image17" src = "" class="card">
+		<input onclick = "cardClicked(this.id)" type = "image" id = "image18" src = "" class="card">
+		<input onclick = "cardClicked(this.id)" type = "image" id = "image19" src = "" class="card">
+		<input onclick = "cardClicked(this.id)" type = "image" id = "image20" src = "" class="card">
+		<br>
+	  </div>
+	  <br>
+	  <button onClick = "goToMenu()">Menu</button>
+	  <br><br>
+	  <button onClick = "scrambleImages()" id = "reset">Reset Game</button>
+	  <br>
+  </body>
+</html> 
